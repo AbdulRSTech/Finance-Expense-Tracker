@@ -1,7 +1,7 @@
 import pytest
 import tempfile
 import os
-from project import Tracker
+from tracker import Tracker
 
 @pytest.fixture
 def temp_file():
